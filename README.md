@@ -1,3 +1,8 @@
+
+# Chest-X-Ray-Medical-Diagnosis-with-Deep-Learning
+This project leverages Deep Learning techniques to classify chest X-ray images for the detection of pneumonia and other respiratory conditions. The model is trained on the NIH Chest X-Ray Dataset, a large-scale repository of chest radiographs, and achieves robust accuracy through the use of state-of-the-art Convolutional Neural Networks (CNNs).Trained and validated the model on the ChestX-ray8 dataset, ensuring diversity and reliability.
+Applied data preprocessing and augmentation techniques using Keras ImageDataGenerator to standardize and enhance the dataset.
+Achieved 87% classification accuracy, 
 # Chest-X-Ray-Medical-Diagnosis-with-Deep-Learning
 Diagnose 14 pathologies on Chest X-Ray using Deep Learning. Perform diagnostic interpretation using GradCAM Method
 
@@ -92,8 +97,6 @@ In this project, the model uses 320 x 320 X-Rays images and outputs predictions 
 
 ![](asset/predictions.png)
 
-# Environment and dependencies
-In order to run the model, I used an environment with tensorflow 1.15.0 and Keras 2.1.6. Model weights are provided in the repo.
 
 # Results
 I used a pre-trained model which performance can be evaluated using the ROC curve shown at the bottom. The best results are achieved for Cardiomegaly (0.9 AUC), Edema (0.86) and Mass (0.82). Ideally we want to be significantly closer to 1. You can check out below the performance from the ChexNeXt paper and their model as well as radiologists on this dataset.
